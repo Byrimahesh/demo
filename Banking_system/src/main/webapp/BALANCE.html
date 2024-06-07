@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+div{
+background-image:url();
+background-size:cover;
+
+background-color:black;
+font-style:white;
+text-align: center;
+}
+
+.Demo
+
+a
+{
+color: white;
+}
+#one{
+display :inline;
+padding-right:50px;
+background-color: white;
+margin:100px;
+}
+#text
+{
+margin-left: 100px;
+color: white;
+margin-top: 20px;
+
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="Demo">
+<img alt="" src="icici-bank.jpg"></div>
+
+<div id="one">
+<a href="New_account.html">NEW ACCOUNT</a> |
+<a href="BALANCE.html">BALANCE</a> |
+<a href="deposit.html">DEPOSIT</a> |
+<a href="withdraw.html">WITHDRAW</a>
+<a href="Transfer.html">TRANSFER</a>
+<a href="close.html">CLOSE A/C</a> |
+<a href="about_us.html">ABOUT US</a>
+</div>
+<form action="BalanceCheckServlet" method="post">
+
+
+<div id="text">
+<label>ACCOUNT_NO  </label>   <input type="text" name="AccountNumber" required="required"><br><br>
+<label>USER_NAME </label>     <input type="text" name="PW" required="required"><br><br>
+<label>PASSWORD</label>   <input type="text" name="un" required="required"><br><br>
+<input type="submit">
+</div>
+</form>
+</body>
+</html>
